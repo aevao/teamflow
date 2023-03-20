@@ -96,20 +96,20 @@ header {
   position: absolute;
 }
 #vector_1 {
-  left: 575px;
-  top: 177px;
+  left: 0px;
+  top: 60px;
 }
 #vector_2 {
-  left: 576px;
-  top: 718px;
+  left: 0px;
+  bottom: 20px;
 }
 #vector_4 {
-  top: 748px;
-  left: 1219px;
+  bottom: 58px;
+ right: 0px;
 }
 #vector_3 {
-  top: 178px;
-  left: 1234px;
+  top: 25px;
+  right: 20px
 }
 
 /* header style end */

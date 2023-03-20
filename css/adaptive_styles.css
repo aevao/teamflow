@@ -2,6 +2,10 @@
   .header__btn {
     width: 40%;
   }
+  #vector_2 {
+    left: -50px;
+    bottom: 20px;
+}
 }
 @media all and (max-width: 1150px) {
   .navbar__list,
@@ -31,7 +35,11 @@
 @media all and (max-width: 1000px) {
   #vector_3 {
     bottom: 59px;
-    left: 50%;
+    
+  }
+  #vector_2 {
+    left: -40px;
+    bottom: 0px
   }
   .header__btn {
     width: 50%;
