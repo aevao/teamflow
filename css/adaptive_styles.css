@@ -5,7 +5,7 @@
   #vector_2 {
     left: -50px;
     bottom: 20px;
-}
+  }
 }
 @media all and (max-width: 1150px) {
   .navbar__list,
@@ -35,11 +35,10 @@
 @media all and (max-width: 1000px) {
   #vector_3 {
     bottom: 59px;
-    
   }
   #vector_2 {
     left: -40px;
-    bottom: 0px
+    bottom: 0px;
   }
   .header__btn {
     width: 50%;
@@ -124,5 +123,136 @@
   }
   .info-block__btn {
     width: 30%;
+  }
+}
+@media all and (max-width: 700px) {
+  .sevices__title_main {
+    width: 80%;
+  }
+  .services__item {
+    width: 40%;
+  }
+}
+@media all and (max-width: 600px) {
+  .navbar__logo {
+    width: 20%;
+  }
+  .header__title_left {
+    font-size: 50px;
+  }
+  .header__desc_left {
+    font-size: 18px;
+  }
+  .header__btn {
+    width: 40%;
+  }
+  #vector_3 {
+    bottom: -15px;
+  }
+}
+@media all and (max-width: 500px) {
+  .header__title_left,
+  .sevices__title_main,
+  .portfolio__title,
+  .info-block__title {
+    font-size: 30px;
+  }
+  .header__desc_left {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .header__btn {
+    font-size: 16px;
+    width: 50%;
+  }
+  .vector {
+    width: 50px;
+  }
+  #vector_3 {
+    top: 40px;
+    right: 20px;
+  }
+  #vector_2 {
+    left: -17px;
+    bottom: 0px;
+  }
+  #vector_4 {
+    bottom: 69px;
+    right: 0px;
+  }
+  .services__list {
+    justify-content: center;
+  }
+  .services__item {
+    width: 50%;
+  }
+  .portfolio__title {
+    width: 90%;
+  }
+  .portfolio__item:nth-child(2),
+  .portfolio__item:nth-child(3) {
+    display: none;
+  }
+  .portfolio__list {
+    justify-content: center;
+  }
+  .portfolio__item {
+    width: 80%;
+  }
+  .portfolio__icon {
+    display: none;
+  }
+  .portfolio__icon_second {
+    display: block;
+    margin-left: 43%;
+  }
+  .info-block__btn {
+    font-size: 16px;
+  }
+  .footer__logo {
+    width: 30%;
+    height: 40px;
+  }
+}
+@media all and (max-width: 400px) {
+  .header__title_left,
+  .sevices__title_main,
+  .portfolio__title,
+  .info-block__title {
+    font-size: 25px;
+  }
+  .info-block__title {
+    width: 90%;
+  }
+  .services__title {
+    font-size: 24px;
+  }
+  .services__desc {
+    font-size: 15px;
+  }
+  .sevices__title_main {
+    width: 90%;
+  }
+}
+@media all and (max-width: 320px) {
+  .header__btn {
+    width: 75%;
+  }
+  .vector {
+    width: 35px;
+  }
+  #vector_4 {
+    bottom: 25px;
+    right: -3px;
+  }
+  .info-block__title {
+    width: 100%;
+  }
+  .info-block__btn {
+    width: 50%;
+    height: 45px;
+  }
+  .footer__list {
+    width: 60%;
   }
 }

@@ -16,6 +16,26 @@
   </head>
   <body>
     <div class="container">
+      <!--burger start  -->
+      <div class="burger-menu">
+        <div class="burger-menu__content">
+          <img
+            src="./images/cancel_btn.png"
+            alt=""
+            class="burger-menu__btn_close"
+          />
+          <input class="burger-menu__input" type="text" />
+          <ul class="burger-menu__list">
+            <li class="burger-menu__item"><a href="*">Services</a></li>
+            <li class="burger-menu__item">
+              <a href="*">Our Project</a>
+            </li>
+            <li class="burger-menu__item"><a href="*">About Us</a></li>
+            <li class="burger-menu__item"><a href="*">Home</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- burger end -->
       <div class="navbar">
         <img class="navbar__logo" src="./images/Group 162475.png" alt="" />
 
@@ -45,7 +65,12 @@
         </div>
         <div class="header__block_right">
           <img src="./images/man.png" class="Man__img" alt="" />
-          <img src="./images/Vector 1.png"alt="" class="vector"id="vector_1"/>
+          <img
+            src="./images/Vector 1.png"
+            alt=""
+            class="vector"
+            id="vector_1"
+          />
           <img src="./images/vector2.png" alt="" class="vector" id="vector_2" />
           <img src="./images/vector3.png" class="vector" id="vector_3" alt="" />
           <img src="./images/vector4.png" alt="" class="vector" id="vector_4" />
@@ -119,6 +144,12 @@
           </li>
         </ul>
         <img src="./images/bott.png" class="portfolio__icon" alt="" />
+        <img
+          src="./images/portfolio__icon.png
+        "
+          alt=""
+          class="portfolio__icon_second"
+        />
       </div>
       <!-- portfolio block end -->
       <!-- info-block start -->
@@ -141,5 +172,20 @@
       </footer>
       <!-- footer end -->
     </div>
+
+    <script>
+      let openBtn = document.querySelector(".navbar__burger_btn");
+      let closeBtn = document.querySelector(".burger-menu__btn_close");
+      let burgerMenu = document.querySelector(".burger-menu");
+
+      openBtn.addEventListener(
+        "click",
+        () => (burgerMenu.style.display = "block")
+      );
+      closeBtn.addEventListener(
+        "click",
+        () => (burgerMenu.style.display = "none")
+      );
+    </script>
   </body>
 </html>
